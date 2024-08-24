@@ -15,7 +15,7 @@ listen: :40443
 
 #有域名，使用CA证书
 #acme:
-#  domains:
+#  domains:vmess.als.us.kg
 #    - test.heybro.bid #你的域名，需要先解析到服务器ip
 #  email: xxx@gmail.com
 
@@ -26,7 +26,7 @@ tls:
 
 auth:
   type: password
-  password: $GENPASS
+  password: $AlSPaSS
 
 masquerade:
   type: proxy
